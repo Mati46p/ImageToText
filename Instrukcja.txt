@@ -1,0 +1,25 @@
+Instalacja Pythona:
+1. Przejdź na stronę https://www.python.org/downloads/ i pobierz najnowszą wersję Pythona dla swojego systemu operacyjnego (Windows, macOS lub Linux).
+2. Uruchom pobrany plik instalacyjny i postępuj zgodnie z instrukcjami, klikając "Install now" lub "Customize installation". 
+3. Upewnij się, że opcja "Add Python to PATH" jest zaznaczona, aby móc uruchamiać Pythona z dowolnego miejsca na komputerze.
+
+Instalacja bibliotek:
+1. Otwórz Terminal (na macOS lub Linux) lub Command Prompt (na Windows).
+2. Wpisz następującą komendę, aby zainstalować wszystkie wymagane biblioteki:
+   ```
+   pip install pytesseract Pillow langdetect python-docx PyMuPDF pdf2image googletrans
+   ```
+3. Poczekaj, aż instalacja zostanie ukończona.
+
+Uruchomienie kodu:
+1. Pobierz plik `ImageToText.txt`, który zawiera kod Pythona.
+2. Otwórz Terminal (na macOS lub Linux) lub Command Prompt (na Windows).
+3. Przejdź do folderu, w którym zapisałeś plik `ImageToText.txt`, używając komendy `cd /ścieżka/do/folderu`.
+4. Uruchom plik, wpisując:
+   ```
+   python ImageToText.py
+   ```
+5. Pojawi się informacja o utworzeniu folderów `Input` i `Output`. Umieść pliki, które chcesz przetworzyć, w folderze `Input`.
+6. Naciśnij Enter, aby rozpocząć przetwarzanie plików.
+7. Postępuj zgodnie z instrukcjami wyświetlanymi w terminalu. Wybierz format wyjściowy (DOCX lub TXT) oraz podaj nazwę pliku wyjściowego.
+8. Gotowe! Przetworzony plik zostanie zapisany w folderze `Output`.
